@@ -1,0 +1,40 @@
+1. HTML stands for Hyper Text Markup language.
+2. Markup tag can process audio, text, image etc to display in web page
+3. Tim Berners- Lee has invented HTML in 1989.
+4. HTML has different versions. I will be explaining about HTML5, the most updated one.
+5. Advantages of HTML
+    I) Easy to learn.
+    II) Free software
+    III) Nearly all browsers support HTML
+    IV) Not case sensitive language -> <HTML> or <html>
+    V) HTML page load very fast due to its small size
+   
+   Disadvantages of HTML
+   I) can not create dynamic page using HTML 
+
+6. Web designers need to learn HTML5, CSS3, Bootstrap, JavaScript, JQuery
+
+7. what is Tag?
+    Tag is known as the heart of HTML. 
+    Tag has keyword having angular bracket on both sides. see example below - 
+    <P> This is an element </p>
+
+8. There are 2 types of Tag.
+    i) Container tag / element tag / pair tag -> tags that come in par like opening and closing 
+        example -   <P> This is an element </p>
+
+    ii) empty tag - it is a single tag. one tag is for opening and closing. in the following example ?<br> is an empty tag 
+        example - Hello <br> 
+
+9. what is HTML attribute?
+    HTML attributes extend the capability of HTML Tag. In following example img tag has 
+    src, height and width attribute
+    example: <img src="image1.jpg" height="200px" width="200px">
+
+
+10. To start learning HTML all you need a text editior like notepad and a broswer like google chrome, firefox etc.
+
+    
+
+
+    
