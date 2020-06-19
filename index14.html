@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form Example</title>
+</head>
+<body>
+    
+    <form action="mailto:anisul2010s@yahoo.co.uk" method="POST" enctype="text/plain">
+
+        <fieldset>
+            <legend>Personal section:</legend>
+
+            <datalist id="names">
+                <option value="anisul">Anisul</option>
+                <option value="Sweety">Sweety</option>
+            </datalist>
+
+            <p><label for="username">Enter your username : </label><input type="text" list="names" id="username" name="UserName" pattern=".{6,}" required title="Six or more characters"> </p> 
+            <p><label for="password">Enter your password : </label><input type="password" id="password" name="PassWord" placeholder="enter your password"></p> 
+            <p><label for="email">Enter your email address : </label><input type="email" id="email" name="Email"></p> 
+                
+        </fieldset>
+            <p>
+                <label for="gender">Gender : </label>
+                <input type="radio" id="male" name="gender" value="male">Male
+                <input type="radio" id="female" name="gender" value="female">Female
+                
+                </p> 
+
+                <p>
+                    <label for="religion">Choose your Religion : </label>
+                    <input type="checkbox" id="islam" name="Islam"> Islam
+                    <input type="checkbox" id="hindu" name="Hindu"> Hindu
+                </p> 
+
+                <p>
+                    <label for="Department"> Department : </label>
+                    <select name="" id="">
+                        <option value="CSE">CSE</option>
+                        <option value="EEE" selected>EEE</option>
+                        <option value="CIVIL">Civil</option>
+                        <option value="LLB">LLB</option>
+        
+        
+                    </select>
+                </p>
+
+                <p>
+                    <label for="feedback">Feedback : </label></p>
+                    <textarea name="" id="" cols="30" rows="10">
+            
+                    </textarea>       
+                <p>
+
+                <p>
+                    <input type="submit" value="submit" name="Submit">
+                    <input type="reset" value="reset" name="Submit">
+                </p>
+
+
+    </form>
+
+
+</body>
+</html>
