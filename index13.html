@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Example 2</title>
+
+    <style>
+
+        table{
+            width: 50%;
+        }
+
+        table, th, td{
+            border: 2px solid black;
+            border-collapse: collapse;
+        }
+
+        th,td{
+            padding: 10px;
+            text-align: center;
+        }
+        
+        #table1 th{
+            background-color: black;
+            color: white;
+        }
+
+        #table1 tr:nth-child(even) {
+            background-color: #eee;
+        }
+        #table1 tr:nth-child(odd) {
+            background-color: #fff;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <table id="table1">
+        <caption>student details</caption> <!--To add a caption to a table, use the <caption> tag:-->
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>GPA</th>
+            
+        </tr>
+
+        <tr>
+            <td>101</td>
+            <td>Anisul Islam</td>
+            <td>3.5</td>
+           
+          </tr>
+          <tr>
+            <td>102</td>
+            <td>Rabeya</td>
+            <td>4</td>
+            
+          </tr>
+
+          <tr>
+            <td>103</td>
+            <td>Linkon</td>
+            <td>4</td>
+          </tr>
+
+          <tr>
+            <td>104</td>
+            <td>Affani</td>
+            <td>4.5</td>
+          </tr>
+
+          <tr>
+            <td>105</td>
+            <td>Robi</td>
+            <td>3.5</td>
+          </tr>
+
+    </table>
+
+</body>
+</html>
