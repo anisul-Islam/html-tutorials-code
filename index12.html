@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Table</title>
+
+    <style>
+
+        /* adding border here for the table, table header (th), table data (td)*/
+        table, th, td{
+            border: 1px solid black; /*2 border line */
+            border-collapse: collapse; /* single line border */
+            
+        }
+
+        table{
+            border-spacing: 5px; /* Border spacing specifies the space between the cells.*/
+        }
+
+        /* adding cellpadding and cellspacing  */
+        th,td{
+            padding: 5px;
+            text-align: center;
+        }
+    </style>
+
+</head>
+<body>
+
+    <h2>Example of HTML Table</h2>
+    <table>
+        <caption>student details</caption> <!--To add a caption to a table, use the <caption> tag:-->
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>GPA</th>
+            <th colspan="2">Phone</th>
+        </tr>
+
+        <tr>
+            <td>101</td>
+            <td>Anisul Islam</td>
+            <td>3.5</td>
+            <td>017</td>
+            <td>018</td>
+          </tr>
+          <tr>
+            <td>102</td>
+            <td>Rabeya</td>
+            <td rowspan="2">4</td>
+            <td>017</td>
+            <td>018</td>
+          </tr>
+
+          <tr>
+            <td>103</td>
+            <td>Linkon</td>
+            <td>017</td>
+            <td>018</td>
+          </tr>
+
+    </table>
+</body>
+</html>
